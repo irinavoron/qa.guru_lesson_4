@@ -58,7 +58,7 @@ def test_random_list():
     Создайте список из 10 случайных чисел от 1 до 100 (включая обе границы) и отсортируйте его по возрастанию.
     """
     # TODO создайте список
-    l = [random.randint(0, 101) for i in range(10)]
+    l = [random.randint(1, 101) for i in range(10)]
     l.sort()
 
     assert len(l) == 10
